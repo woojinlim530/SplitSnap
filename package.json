@@ -1,0 +1,17 @@
+{
+  "name": "splitsnap-cloudflare-workers",
+  "version": "1.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "wrangler": "^4.102.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
